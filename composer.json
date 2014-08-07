@@ -1,10 +1,10 @@
 {
     "name": "dts/ebay-sdk-file-transfer",
-    "description": "An object oriented PHP SDK for the eBay API",
+    "description": "An eBay SDK for PHP. Use the eBay File Transfer API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
-    "homepage": "https://github.com/davidtsadler/ebay-sdk-file-transfer",
+    "homepage": "http://devbay.net/",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "David T. Sadler",
@@ -23,12 +23,9 @@
         "phpunit/phpunit": "~3.7.0"
     },
     "autoload": {
-        "psr-0": {"DTS\\eBaySDK\\FileTransfer\\": "src/"}
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/davidtsadler/ebay-sdk.git"
+        "psr-0": {
+            "DTS\\eBaySDK\\FileTransfer\\": "src/",
+            "DTS\\eBaySDK\\FileTransfer\\Mocks\\": "test/"
         }
-    ]
+    }
 }
