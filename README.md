@@ -1,6 +1,6 @@
 # EBAY-SDK-FILE-TRANSFER
 
-[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-file-transfer.svg?branch=develop)](https://travis-ci.org/davidtsadler/ebay-sdk-file-transfer)
+[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-file-transfer.svg?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-file-transfer)
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/developers/ebay/documentation-tools/) in their PHP code, and build software using the [File Transfer](https://developer.ebay.com/DevZone/large-merchant-services/Concepts/LMS_APIGuide.html#ftsservice) service. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/installation/) and by following the [Getting Started Guide](http://devbay.net/sdk/guides/getting-started/).
 
