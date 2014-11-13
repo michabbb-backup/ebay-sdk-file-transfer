@@ -4,7 +4,7 @@
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/developers/ebay/documentation-tools/) in their PHP code, and build software using the [File Transfer](https://developer.ebay.com/DevZone/large-merchant-services/Concepts/LMS_APIGuide.html#ftsservice) service. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/installation/) and by following the [Getting Started Guide](http://devbay.net/sdk/guides/getting-started/).
 
-## Features 
+## Features
 
   - Compatible with PHP 5.3.9 or greater.
   - Easy to install with [Composer](http://getcomposer.org/).
@@ -16,7 +16,7 @@ This project enables PHP developers to use the [eBay API](https://go.developer.e
   - [SDK Versions](http://devbay.net/sdk/guides/versions/) - A complete list of each SDK, and the API version they support.
   - [Sample Project](https://github.com/davidtsadler/ebay-sdk-examples) - Provides several examples of using the SDK.
   - [Google Group](https://groups.google.com/forum/#!forum/ebay-sdk-php) - Join for support with the SDK.
-  - [@devbaydotnet](https://twitter.com/devbaydotnet) - Follow on Twitter for announcements of releases, important changes and so on. 
+  - [@devbaydotnet](https://twitter.com/devbaydotnet) - Follow on Twitter for announcements of releases, important changes and so on.
 
 ## Requirements
 
@@ -28,17 +28,7 @@ This project enables PHP developers to use the [eBay API](https://go.developer.e
 
 ## Installation
 
-This package can be installed with [Composer](http://getcomposer.org/).
-
-  1. Add `dts/ebay-sdk-file-transfer` as a dependency in your project's composer.json file.
-
-     ```javascript
-     {
-         "require": {
-             "dts/ebay-sdk-file-transfer": "~0.1"
-         }
-     }
-     ```
+The SDK can be installed with [Composer](http://getcomposer.org/).
 
   1. Install Composer.
 
@@ -46,10 +36,10 @@ This package can be installed with [Composer](http://getcomposer.org/).
      curl -sS https://getcomposer.org/installer | php
      ```
 
-  1. Install the dependencies.
+  1. Install the SDK.
 
      ```
-     php composer.phar install
+     php composer.phar require dts/ebay-sdk-file-transfer
      ```
 
   1. Require Composer's autoloader by adding the following line to your code.
@@ -64,7 +54,7 @@ This package can be installed with [Composer](http://getcomposer.org/).
   - Be [well documented](http://devbay.net/sdk/guides/).
   - Be [well tested](https://github.com/davidtsadler/ebay-sdk-file-transfer/tree/master/test/DTS/eBaySDK/FileTransfer).
   - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples/blob/master/file-transfer/README.md).
-  
+
 ## Project Maturity
 
 This is a personal project that has been developed by me, [David T. Sadler](http://twitter.com/davidtsadler). I decided to create this project to make up for the lack of an official SDK for PHP. It is in no way endorsed, sponsored or maintained by eBay.
