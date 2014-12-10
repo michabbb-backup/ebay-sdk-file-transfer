@@ -53,7 +53,7 @@ The SDK can be installed with [Composer](http://getcomposer.org/).
   - Be well maintained.
   - Be [well documented](http://devbay.net/sdk/guides/).
   - Be [well tested](https://github.com/davidtsadler/ebay-sdk-file-transfer/tree/master/test/DTS/eBaySDK/FileTransfer).
-  - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples/blob/master/file-transfer/README.md).
+  - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples/blob/master/large-merchant-services/README.md).
 
 ## Project Maturity
 
