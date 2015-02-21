@@ -28,7 +28,7 @@ This project enables PHP developers to use the [eBay API](https://go.developer.e
 
 ## Installation
 
-The SDK can be installed with [Composer](http://getcomposer.org/).
+The SDK can be installed with [Composer](http://getcomposer.org/). Please see the [Installation section of the User Guide](http://devbay.net/sdk/guides/installation/) to learn about installing through other means.
 
   1. Install Composer.
 
@@ -53,7 +53,11 @@ The SDK can be installed with [Composer](http://getcomposer.org/).
   - Be well maintained.
   - Be [well documented](http://devbay.net/sdk/guides/).
   - Be [well tested](https://github.com/davidtsadler/ebay-sdk-file-transfer/tree/master/test/DTS/eBaySDK/FileTransfer).
+<<<<<<< HEAD
   - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples/blob/master/large-merchant-services/README.md).
+=======
+  - Be well supported with [working examples](https://github.com/davidtsadler/ebay-sdk-examples/blob/master/file-transfer/README.md).
+>>>>>>> feature: allow manual installation of SDK via PHP Phar or Zip archive
 
 ## Project Maturity
 

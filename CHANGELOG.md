@@ -1,8 +1,12 @@
-CHANGELOG
-=========
+# CHANGELOG
 
-0.2.0 (2014-09-08)
-------------------
+## Unreleased
+
+### Features
+
+* Allow manual installation of SDK via PHP Phar or Zip archive.
+
+## 0.2.0 - 2014-09-08
 
 ### Features
 
@@ -31,7 +35,6 @@ CHANGELOG
   $response = $service->uploadFile($request);
   ```
 
-0.1.0 (2014-08-25)
-------------------
+## 0.1.0 - 2014-08-25
 
 * Initial release.
