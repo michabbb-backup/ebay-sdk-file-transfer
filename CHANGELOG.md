@@ -1,10 +1,20 @@
 # CHANGELOG
 
-## Unreleased
+## 0.2.1 - 2015-03-01
 
 ### Features
 
 * Allow manual installation of SDK via PHP Phar or Zip archive.
+
+### Documentation
+
+* State code is generated.
+* Correct link to examples.
+* Update installation instructions in README.
+
+### Tests
+
+* Add PHP 5.6 and HHVM to travis settings.
 
 ## 0.2.0 - 2014-09-08
 
